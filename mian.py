@@ -36,6 +36,9 @@ def process_json_data(json_data):
                 "Image Alt Text": '',  # Not available in JSON
             }
 
+
+            
+
             product_added = False  # To ensure we only add the product row once
 
             for variant_index, variant in enumerate(product.get('variants', [])):
